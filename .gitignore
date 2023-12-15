@@ -53,3 +53,4 @@ wp-config.php
 /cgi-bin/
 /webhook/
 /webhook.php
+/git_log.txt
