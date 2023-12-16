@@ -53,3 +53,4 @@ wp-config.php
 /cgi-bin/
 /webhook/
 /git_log.txt
+/dgb
