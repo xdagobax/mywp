@@ -22,9 +22,9 @@ shell_exec('git config user.email "emmanaorg@gmail.com"');
 
 
 
-// Agregar solo el archivo .gitignore al área de preparación (stage)
+// Agregar archivos al área de preparación (stage)
 
-$output = shell_exec('git add webhook.php 2>&1');
+$output = shell_exec('git add .gitignore 2>&1');
 
 file_put_contents('git_log.txt', $output, FILE_APPEND);
 
@@ -32,9 +32,9 @@ echo $output;
 
 
 
-// Hacer commit del archivo .gitignore
+// Hacer commit del archivo archivos
 
-$output = shell_exec('git commit -m "Commit automático de webhook.php antes de la fusión" 2>&1');
+$output = shell_exec('git commit -m "Commit automático de .gitignore antes de la fusión" 2>&1');
 
 file_put_contents('git_log.txt', $output, FILE_APPEND);
 
