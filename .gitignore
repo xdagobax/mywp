@@ -52,5 +52,4 @@ wp-config.php
 /bk/
 /cgi-bin/
 /webhook/
-/webhook.php
 /git_log.txt
